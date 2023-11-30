@@ -27,7 +27,7 @@ export default function RootLayout({
 	return (
 		<html lang="en" className={[inter.variable, calSans.variable].join(" ")}>
 			<head>
-				<Analytics />
+				
 				<link rel="icon" href="/icon?<generated>" type="image/png" sizes="32x32"/>
 			</head>
 			<body
@@ -35,6 +35,7 @@ export default function RootLayout({
 					}`}
 			>
 				{children}
+				<Analytics/>
 			</body>
 		</html>
 	);
