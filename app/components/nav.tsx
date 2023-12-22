@@ -40,7 +40,7 @@ export const Navigation: React.FC = () => {
 							Contact
 						</Link>
 						<Link
-							href="/resume.pdf"
+							href="/api/resume"
 							className="duration-200 text-zinc-400 hover:text-zinc-100"
 						>
 							Resume
