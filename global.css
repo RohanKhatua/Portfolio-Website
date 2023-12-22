@@ -3,8 +3,20 @@
 @tailwind utilities;
 
 @layer base {
-  .text-edge-outline {
-    -webkit-text-stroke: 1px rgba(255,255,255,0.3);
-  }
-} 
+	.text-edge-outline {
+		-webkit-text-stroke: 1px rgba(255, 255, 255, 0.3);
+	}
 
+	@keyframes slowerFade {
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	}
+
+	.other-page-fade-in {
+		animation: slowerFade 1.5s ease-in forwards;
+	}
+}

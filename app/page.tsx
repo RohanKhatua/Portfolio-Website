@@ -17,7 +17,7 @@ export default function Home() {
 						<Link
 							key={item.href}
 							href={item.href}
-							className="text-lg duration-500 text-zinc-500 hover:text-zinc-300"
+							className="text-lg duration-500 text-zinc-500 hover:text-zinc-300 font-semibold"
 						>
 							{item.name}
 						</Link>
@@ -32,16 +32,15 @@ export default function Home() {
 				staticity={25}
 				refresh={true}
 			/>
-			<h1 className="z-10 text-4xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text ">
+			<h1 className="z-10 text-4xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text">
 				Rohan Khatua
 			</h1>
 
 			<div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
 			<div className="my-16 text-center animate-fade-in">
-				<h2 className="text-sm text-zinc-500 mx-6">
-					Hi there! I'm Rohan and I like to make cool stuff.
-					Just like this website. Feel free to look around!
-
+				<h2 className="text-sm text-zinc-500 mx-6 font-semibold">
+					Hi there! I'm Rohan and I like to make cool stuff,
+					just like this website. Feel free to look around!
 				</h2>
 			</div>
 		</div>
