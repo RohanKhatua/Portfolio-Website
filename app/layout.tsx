@@ -20,14 +20,6 @@ export const metadata: Metadata = {
 		url: "https://www.linkedin.com/in/rohankhatua/",
 	},
 	colorScheme: "dark light",
-	openGraph: {
-		type: "website",
-		locale: "en_IN",
-		url: "https://rohankhatua.dev",
-		title: "Rohan Khatua Portfolio",
-		description: "Rohan Khatua's Portfolio",
-		countryName: "India",
-	},
 	themeColor: "#000000",
 }
 
