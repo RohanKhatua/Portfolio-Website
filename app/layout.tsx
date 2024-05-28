@@ -4,6 +4,7 @@ import LocalFont from "next/font/local";
 import { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/react"
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { GeistMono } from "geist/font/mono"
 
 export const metadata: Metadata = {
 	title: "Rohan Khatua Portfolio",
@@ -40,7 +41,7 @@ export default function RootLayout({
 	children: React.ReactNode;
 }) {
 	return (
-		<html lang="en" className={[inter.variable, calSans.variable].join(" ")}>
+		<html lang="en" className={GeistMono.className}>
 			<head>
 				<link rel="icon" href="/icon?<generated>" type="image/png" sizes="32x32" />
 			</head>
